@@ -14,7 +14,7 @@ from layoffs;
 Create table layoffs_staging like layoffs;
 
 -- Verify the staging table structure matches the original
-Select*
+Select *
 from layoffs_staging;
 
 -- Populate the staging table with data from the original table
